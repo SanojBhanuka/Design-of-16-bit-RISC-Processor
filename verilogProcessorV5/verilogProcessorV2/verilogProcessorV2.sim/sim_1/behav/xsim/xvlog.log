@@ -1,0 +1,37 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/OneDrive - engug.ruh.ac.lk/University/SEMESTER6/Syn/Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/OneDrive - engug.ruh.ac.lk/University/SEMESTER6/Syn/Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.srcs/sources_1/new/adder_pc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_pc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/OneDrive - engug.ruh.ac.lk/University/SEMESTER6/Syn/Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.srcs/sources_1/new/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/OneDrive - engug.ruh.ac.lk/University/SEMESTER6/Syn/Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.srcs/sources_1/new/aludecorder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aludecorder
+WARNING: [VRFC 10-3248] data object 'RtypeSub' is already declared [C:/Users/ASUS/OneDrive - engug.ruh.ac.lk/University/SEMESTER6/Syn/Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.srcs/sources_1/new/aludecorder.v:8]
+WARNING: [VRFC 10-3703] second declaration of 'RtypeSub' ignored [C:/Users/ASUS/OneDrive - engug.ruh.ac.lk/University/SEMESTER6/Syn/Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.srcs/sources_1/new/aludecorder.v:8]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/OneDrive - engug.ruh.ac.lk/University/SEMESTER6/Syn/Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.srcs/sources_1/new/controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/OneDrive - engug.ruh.ac.lk/University/SEMESTER6/Syn/Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.srcs/sources_1/new/datamem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datamem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/OneDrive - engug.ruh.ac.lk/University/SEMESTER6/Syn/Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.srcs/sources_1/new/datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/OneDrive - engug.ruh.ac.lk/University/SEMESTER6/Syn/Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.srcs/sources_1/new/extender.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module extender
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/OneDrive - engug.ruh.ac.lk/University/SEMESTER6/Syn/Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.srcs/sources_1/new/flopr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module flopr
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/OneDrive - engug.ruh.ac.lk/University/SEMESTER6/Syn/Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.srcs/sources_1/new/instructionmem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instructionmem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/OneDrive - engug.ruh.ac.lk/University/SEMESTER6/Syn/Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.srcs/sources_1/new/maindecorder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module maindecorder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/OneDrive - engug.ruh.ac.lk/University/SEMESTER6/Syn/Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.srcs/sources_1/new/mux2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/OneDrive - engug.ruh.ac.lk/University/SEMESTER6/Syn/Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.srcs/sources_1/new/mux3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/OneDrive - engug.ruh.ac.lk/University/SEMESTER6/Syn/Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.srcs/sources_1/new/registerfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module registerfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/OneDrive - engug.ruh.ac.lk/University/SEMESTER6/Syn/Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.srcs/sources_1/new/riscprocessor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module riscprocessor
+INFO: [VRFC 10-2458] undeclared symbol PCSrc, assumed default net type wire [C:/Users/ASUS/OneDrive - engug.ruh.ac.lk/University/SEMESTER6/Syn/Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.srcs/sources_1/new/riscprocessor.v:13]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/OneDrive - engug.ruh.ac.lk/University/SEMESTER6/Syn/Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/OneDrive - engug.ruh.ac.lk/University/SEMESTER6/Syn/Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.srcs/sim_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench

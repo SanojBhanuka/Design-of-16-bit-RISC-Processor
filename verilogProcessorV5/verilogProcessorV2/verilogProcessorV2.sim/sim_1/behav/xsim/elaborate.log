@@ -1,0 +1,70 @@
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto f79812246ab242b3b460cccf38e33e99 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 16 for port 'WriteData' [C:/Users/ASUS/OneDrive - engug.ruh.ac.lk/University/SEMESTER6/Syn/Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.srcs/sim_1/new/testbench.v:11]
+WARNING: [VRFC 10-3091] actual bit length 16 differs from formal bit length 32 for port 'ALUResult' [C:/Users/ASUS/OneDrive - engug.ruh.ac.lk/University/SEMESTER6/Syn/Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.srcs/sources_1/new/riscprocessor.v:20]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 16 for port 'b' [C:/Users/ASUS/OneDrive - engug.ruh.ac.lk/University/SEMESTER6/Syn/Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.srcs/sources_1/new/datapath.v:20]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 16 for port 'b' [C:/Users/ASUS/OneDrive - engug.ruh.ac.lk/University/SEMESTER6/Syn/Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.srcs/sources_1/new/datapath.v:21]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 16 for port 'wd3' [C:/Users/ASUS/OneDrive - engug.ruh.ac.lk/University/SEMESTER6/Syn/Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.srcs/sources_1/new/datapath.v:26]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 16 for port 'immext' [C:/Users/ASUS/OneDrive - engug.ruh.ac.lk/University/SEMESTER6/Syn/Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.srcs/sources_1/new/datapath.v:27]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 16 for port 'a' [C:/Users/ASUS/OneDrive - engug.ruh.ac.lk/University/SEMESTER6/Syn/Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.srcs/sources_1/new/datapath.v:31]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/ASUS/OneDrive - engug.ruh.ac.lk/University/SEMESTER6/Syn/Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.srcs/sources_1/new/top.v" Line 1. Module top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ASUS/OneDrive - engug.ruh.ac.lk/University/SEMESTER6/Syn/Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.srcs/sources_1/new/riscprocessor.v" Line 1. Module riscprocessor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ASUS/OneDrive - engug.ruh.ac.lk/University/SEMESTER6/Syn/Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.srcs/sources_1/new/controller.v" Line 1. Module controller doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ASUS/OneDrive - engug.ruh.ac.lk/University/SEMESTER6/Syn/Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.srcs/sources_1/new/maindecorder.v" Line 1. Module maindecorder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ASUS/OneDrive - engug.ruh.ac.lk/University/SEMESTER6/Syn/Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.srcs/sources_1/new/aludecorder.v" Line 1. Module aludecorder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ASUS/OneDrive - engug.ruh.ac.lk/University/SEMESTER6/Syn/Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.srcs/sources_1/new/datapath.v" Line 1. Module datapath doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ASUS/OneDrive - engug.ruh.ac.lk/University/SEMESTER6/Syn/Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.srcs/sources_1/new/flopr.v" Line 1. Module flopr(WIDTH=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ASUS/OneDrive - engug.ruh.ac.lk/University/SEMESTER6/Syn/Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.srcs/sources_1/new/adder_pc.v" Line 1. Module adder_pc doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ASUS/OneDrive - engug.ruh.ac.lk/University/SEMESTER6/Syn/Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.srcs/sources_1/new/adder.v" Line 2. Module adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ASUS/OneDrive - engug.ruh.ac.lk/University/SEMESTER6/Syn/Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.srcs/sources_1/new/mux2.v" Line 1. Module mux2(WIDTH=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ASUS/OneDrive - engug.ruh.ac.lk/University/SEMESTER6/Syn/Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.srcs/sources_1/new/registerfile.v" Line 1. Module registerfile doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ASUS/OneDrive - engug.ruh.ac.lk/University/SEMESTER6/Syn/Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.srcs/sources_1/new/extender.v" Line 1. Module extender doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ASUS/OneDrive - engug.ruh.ac.lk/University/SEMESTER6/Syn/Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.srcs/sources_1/new/mux2.v" Line 1. Module mux2(WIDTH=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ASUS/OneDrive - engug.ruh.ac.lk/University/SEMESTER6/Syn/Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.srcs/sources_1/new/alu.v" Line 1. Module alu doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ASUS/OneDrive - engug.ruh.ac.lk/University/SEMESTER6/Syn/Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.srcs/sources_1/new/mux3.v" Line 1. Module mux3(WIDTH=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ASUS/OneDrive - engug.ruh.ac.lk/University/SEMESTER6/Syn/Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.srcs/sources_1/new/instructionmem.v" Line 1. Module instructionmem doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ASUS/OneDrive - engug.ruh.ac.lk/University/SEMESTER6/Syn/Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.srcs/sources_1/new/datamem.v" Line 1. Module datamem doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ASUS/OneDrive - engug.ruh.ac.lk/University/SEMESTER6/Syn/Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.srcs/sources_1/new/top.v" Line 1. Module top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ASUS/OneDrive - engug.ruh.ac.lk/University/SEMESTER6/Syn/Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.srcs/sources_1/new/riscprocessor.v" Line 1. Module riscprocessor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ASUS/OneDrive - engug.ruh.ac.lk/University/SEMESTER6/Syn/Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.srcs/sources_1/new/controller.v" Line 1. Module controller doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ASUS/OneDrive - engug.ruh.ac.lk/University/SEMESTER6/Syn/Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.srcs/sources_1/new/maindecorder.v" Line 1. Module maindecorder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ASUS/OneDrive - engug.ruh.ac.lk/University/SEMESTER6/Syn/Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.srcs/sources_1/new/aludecorder.v" Line 1. Module aludecorder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ASUS/OneDrive - engug.ruh.ac.lk/University/SEMESTER6/Syn/Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.srcs/sources_1/new/datapath.v" Line 1. Module datapath doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ASUS/OneDrive - engug.ruh.ac.lk/University/SEMESTER6/Syn/Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.srcs/sources_1/new/flopr.v" Line 1. Module flopr(WIDTH=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ASUS/OneDrive - engug.ruh.ac.lk/University/SEMESTER6/Syn/Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.srcs/sources_1/new/adder_pc.v" Line 1. Module adder_pc doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ASUS/OneDrive - engug.ruh.ac.lk/University/SEMESTER6/Syn/Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.srcs/sources_1/new/adder.v" Line 2. Module adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ASUS/OneDrive - engug.ruh.ac.lk/University/SEMESTER6/Syn/Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.srcs/sources_1/new/mux2.v" Line 1. Module mux2(WIDTH=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ASUS/OneDrive - engug.ruh.ac.lk/University/SEMESTER6/Syn/Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.srcs/sources_1/new/registerfile.v" Line 1. Module registerfile doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ASUS/OneDrive - engug.ruh.ac.lk/University/SEMESTER6/Syn/Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.srcs/sources_1/new/extender.v" Line 1. Module extender doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ASUS/OneDrive - engug.ruh.ac.lk/University/SEMESTER6/Syn/Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.srcs/sources_1/new/mux2.v" Line 1. Module mux2(WIDTH=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ASUS/OneDrive - engug.ruh.ac.lk/University/SEMESTER6/Syn/Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.srcs/sources_1/new/alu.v" Line 1. Module alu doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ASUS/OneDrive - engug.ruh.ac.lk/University/SEMESTER6/Syn/Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.srcs/sources_1/new/mux3.v" Line 1. Module mux3(WIDTH=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ASUS/OneDrive - engug.ruh.ac.lk/University/SEMESTER6/Syn/Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.srcs/sources_1/new/instructionmem.v" Line 1. Module instructionmem doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ASUS/OneDrive - engug.ruh.ac.lk/University/SEMESTER6/Syn/Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.srcs/sources_1/new/datamem.v" Line 1. Module datamem doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.maindecorder
+Compiling module xil_defaultlib.aludecorder
+Compiling module xil_defaultlib.controller
+Compiling module xil_defaultlib.flopr(WIDTH=32)
+Compiling module xil_defaultlib.adder_pc
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.mux2(WIDTH=32)
+Compiling module xil_defaultlib.registerfile
+Compiling module xil_defaultlib.extender
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.mux3(WIDTH=32)
+Compiling module xil_defaultlib.datapath
+Compiling module xil_defaultlib.riscprocessor
+Compiling module xil_defaultlib.instructionmem
+Compiling module xil_defaultlib.datamem
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav

@@ -1,0 +1,73 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Sep  6 17:48:26 2023
+# Process ID: 4480
+# Current directory: C:/z.C/SEM6/My/HDL/1Project/Verilog Processor/verilogProcessorV4/verilogProcessorV2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20712 C:\z.C\SEM6\My\HDL\1Project\Verilog Processor\verilogProcessorV4\verilogProcessorV2\verilogProcessorV2.xpr
+# Log file: C:/z.C/SEM6/My/HDL/1Project/Verilog Processor/verilogProcessorV4/verilogProcessorV2/vivado.log
+# Journal file: C:/z.C/SEM6/My/HDL/1Project/Verilog Processor/verilogProcessorV4/verilogProcessorV2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/z.C/SEM6/My/HDL/1Project/Verilog Processor/verilogProcessorV4/verilogProcessorV2/verilogProcessorV2.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config {C:/z.C/SEM6/My/HDL/1Project/Verilog Processor/verilogProcessorV4/verilogProcessorV2/testbench_behav.wcfg}
+source testbench.tcl
+close_sim
+launch_simulation
+open_wave_config {C:/z.C/SEM6/My/HDL/1Project/Verilog Processor/verilogProcessorV4/verilogProcessorV2/testbench_behav.wcfg}
+source testbench.tcl
+relaunch_sim
+save_wave_config {C:/z.C/SEM6/My/HDL/1Project/Verilog Processor/verilogProcessorV4/verilogProcessorV2/testbench_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config {C:/z.C/SEM6/My/HDL/1Project/Verilog Processor/verilogProcessorV4/verilogProcessorV2/testbench_behav.wcfg}
+source testbench.tcl
+close_sim
+launch_simulation
+open_wave_config {C:/z.C/SEM6/My/HDL/1Project/Verilog Processor/verilogProcessorV4/verilogProcessorV2/testbench_behav.wcfg}
+source testbench.tcl
+save_wave_config {C:/z.C/SEM6/My/HDL/1Project/Verilog Processor/verilogProcessorV4/verilogProcessorV2/testbench_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config {C:/z.C/SEM6/My/HDL/1Project/Verilog Processor/verilogProcessorV4/verilogProcessorV2/testbench_behav.wcfg}
+source testbench.tcl
+close [ open {C:/z.C/SEM6/My/HDL/1Project/Verilog Processor/verilogProcessorV4/verilogProcessorV2/verilogProcessorV2.srcs/sources_1/new/adder_pc.v} w ]
+add_files {{C:/z.C/SEM6/My/HDL/1Project/Verilog Processor/verilogProcessorV4/verilogProcessorV2/verilogProcessorV2.srcs/sources_1/new/adder_pc.v}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+open_wave_config {C:/z.C/SEM6/My/HDL/1Project/Verilog Processor/verilogProcessorV4/verilogProcessorV2/testbench_behav.wcfg}
+source testbench.tcl
+close_sim
+launch_simulation
+open_wave_config {C:/z.C/SEM6/My/HDL/1Project/Verilog Processor/verilogProcessorV4/verilogProcessorV2/testbench_behav.wcfg}
+source testbench.tcl
+close_sim
+launch_simulation
+open_wave_config {C:/z.C/SEM6/My/HDL/1Project/Verilog Processor/verilogProcessorV4/verilogProcessorV2/testbench_behav.wcfg}
+source testbench.tcl
+close_sim
+launch_simulation
+open_wave_config {C:/z.C/SEM6/My/HDL/1Project/Verilog Processor/verilogProcessorV4/verilogProcessorV2/testbench_behav.wcfg}
+source testbench.tcl
+save_wave_config {C:/z.C/SEM6/My/HDL/1Project/Verilog Processor/verilogProcessorV4/verilogProcessorV2/testbench_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config {C:/z.C/SEM6/My/HDL/1Project/Verilog Processor/verilogProcessorV4/verilogProcessorV2/testbench_behav.wcfg}
+source testbench.tcl
+save_wave_config {C:/z.C/SEM6/My/HDL/1Project/Verilog Processor/verilogProcessorV4/verilogProcessorV2/testbench_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config {C:/z.C/SEM6/My/HDL/1Project/Verilog Processor/verilogProcessorV4/verilogProcessorV2/testbench_behav.wcfg}
+source testbench.tcl
+save_wave_config {C:/z.C/SEM6/My/HDL/1Project/Verilog Processor/verilogProcessorV4/verilogProcessorV2/testbench_behav.wcfg}
+save_wave_config {C:/z.C/SEM6/My/HDL/1Project/Verilog Processor/verilogProcessorV4/verilogProcessorV2/testbench_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config {C:/z.C/SEM6/My/HDL/1Project/Verilog Processor/verilogProcessorV4/verilogProcessorV2/testbench_behav.wcfg}
+source testbench.tcl
+close_sim

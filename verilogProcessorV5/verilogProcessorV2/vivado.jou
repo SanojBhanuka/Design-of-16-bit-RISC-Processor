@@ -1,0 +1,11 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Sep 13 23:05:48 2023
+# Process ID: 22256
+# Current directory: C:/Users/Acer/Desktop/New folder (3)/16 bit risk processor/verilogProcessorV5/verilogProcessorV2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13968 C:\Users\Acer\Desktop\New folder (3)\16 bit risk processor\verilogProcessorV5\verilogProcessorV2\verilogProcessorV2.xpr
+# Log file: C:/Users/Acer/Desktop/New folder (3)/16 bit risk processor/verilogProcessorV5/verilogProcessorV2/vivado.log
+# Journal file: C:/Users/Acer/Desktop/New folder (3)/16 bit risk processor/verilogProcessorV5/verilogProcessorV2\vivado.jou
+#-----------------------------------------------------------sstart_guioopen_project {C:/Users/Acer/Desktop/New folder (3)/16 bit risk processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.xpr}uupdate_compile_order -fileset sources_1

@@ -1,0 +1,25 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../verilogProcessorV2.srcs/sources_1/new/adder.v" \
+"../../../../verilogProcessorV2.srcs/sources_1/new/adder_pc.v" \
+"../../../../verilogProcessorV2.srcs/sources_1/new/alu.v" \
+"../../../../verilogProcessorV2.srcs/sources_1/new/aludecorder.v" \
+"../../../../verilogProcessorV2.srcs/sources_1/new/controller.v" \
+"../../../../verilogProcessorV2.srcs/sources_1/new/datamem.v" \
+"../../../../verilogProcessorV2.srcs/sources_1/new/datapath.v" \
+"../../../../verilogProcessorV2.srcs/sources_1/new/extender.v" \
+"../../../../verilogProcessorV2.srcs/sources_1/new/flopr.v" \
+"../../../../verilogProcessorV2.srcs/sources_1/new/instructionmem.v" \
+"../../../../verilogProcessorV2.srcs/sources_1/new/maindecorder.v" \
+"../../../../verilogProcessorV2.srcs/sources_1/new/mux2.v" \
+"../../../../verilogProcessorV2.srcs/sources_1/new/mux3.v" \
+"../../../../verilogProcessorV2.srcs/sources_1/new/registerfile.v" \
+"../../../../verilogProcessorV2.srcs/sources_1/new/riscprocessor.v" \
+"../../../../verilogProcessorV2.srcs/sources_1/new/top.v" \
+"../../../../verilogProcessorV2.srcs/sim_1/new/testbench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sun Sep 10 10:51:29 2023
+# Process ID: 13328
+# Current directory: C:/z.C/SEM6/My/HDL/1Project/Verilog Processor/verilogProcessorV5/verilogProcessorV2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6868 C:\z.C\SEM6\My\HDL\1Project\Verilog Processor\verilogProcessorV5\verilogProcessorV2\verilogProcessorV2.xpr
+# Log file: C:/z.C/SEM6/My/HDL/1Project/Verilog Processor/verilogProcessorV5/verilogProcessorV2/vivado.log
+# Journal file: C:/z.C/SEM6/My/HDL/1Project/Verilog Processor/verilogProcessorV5/verilogProcessorV2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/z.C/SEM6/My/HDL/1Project/Verilog Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config {C:/z.C/SEM6/My/HDL/1Project/Verilog Processor/verilogProcessorV5/verilogProcessorV2/testbench_behav.wcfg}
+source testbench.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+current_wave_config {testbench_behav.wcfg}
+add_wave {{/testbench/dut/dmemory/RAM}} 
+relaunch_sim
+relaunch_sim
+save_wave_config {C:/z.C/SEM6/My/HDL/1Project/Verilog Processor/verilogProcessorV5/verilogProcessorV2/testbench_behav.wcfg}
+close_sim

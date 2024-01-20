@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Mon Sep 11 20:15:36 2023
+# Process ID: 18124
+# Current directory: C:/z.C/SEM6/My/HDL/1Project/Verilog Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/z.C/SEM6/My/HDL/1Project/Verilog Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.sim/sim_1/behav/xsim/xsim.dir/testbench_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/z.C/SEM6/My/HDL/1Project/Verilog Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/z.C/SEM6/My/HDL/1Project/Verilog Processor/verilogProcessorV5/verilogProcessorV2/verilogProcessorV2.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/z.C/SEM6/My/HDL/1Project/Verilog -notrace
+couldn't read file "C:/z.C/SEM6/My/HDL/1Project/Verilog": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Mon Sep 11 20:15:36 2023...
